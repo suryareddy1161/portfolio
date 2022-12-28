@@ -1,0 +1,95 @@
+.staring {
+    position: absolute;
+    top: 460px;
+    margin-left: 30px;
+    font-size: xx-large;
+}
+
+.cardst {
+    margin-top: 520px;
+}
+
+.cardstr {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.imgstaring {
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    margin-left: 35px;
+}
+
+.namestarring {
+    padding-left: 20px;
+
+}
+
+.bar {
+    background-color: whitesmoke;
+    height: 10px;
+}
+
+.barstaring {
+    height: 3px;
+    background: rgb(94, 88, 88);
+    width: 45%;
+    margin-left: 30px;
+    border-radius: 5px;
+}
+
+@media screen and (max-width:770px) {
+    .staring {
+        position: absolute;
+        top: 450px;
+        margin-left: 25px;
+        font-size: xx-large;
+    }
+
+    .barstaring {
+        height: 3px;
+        width: 65%;
+        margin-left: 30px;
+    }
+
+    .cardst {
+        margin-top: 500px;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .staring {
+        position: absolute;
+        top: 1250px;
+        margin-left: 25px;
+        font-size: xx-large;
+    }
+    .barstaring {
+        height: 3px;
+        width: 90%;
+        margin-left: 30px;
+    }
+
+    .cardst {
+        margin-top: 1300px;
+    }
+}
+
+@media screen and (max-width:325px) {
+    .staring {
+        position: absolute;
+        top: 1280px;
+        margin-left: 25px;
+        font-size: xx-large;
+    }
+    .barstaring {
+        height: 3px;
+        width: 90%;
+        margin-left: 20px;
+    }
+    .cardst {
+        margin-top: 1320px;
+    }
+}

@@ -1,0 +1,150 @@
+.cardm{
+    position: absolute;
+    top: 100px;
+    border: 1px solid wheat;
+    border-radius: 5px;
+    width: fit-content;
+    margin: 25px;
+    display: flex;
+   
+}
+ .back{
+    position: fixed;
+    left: 10px;
+    top:10px ;
+    width: fit-content;
+    height: 25px;
+    border-radius: 50px;
+    border-color: white;
+} 
+.imgback{
+    height: 20px;
+    width: 20px;
+}
+.imgm{
+    border-radius: 5px;
+    width: 200px;
+}
+.rating{
+    display: flex;
+    justify-content: center;
+}
+
+.cardc{
+    background-image: url("https://tse4.mm.bing.net/th?id=OIP.vDldgolelOD1vZGc21PcGwHaET&pid=Api&P=0");
+    background-position: 50%;
+    width: 100%; 
+    z-index: 10;
+    position: fixed;
+   top: 0;
+   right: 0;
+   left: 0;  
+   height: 100px;
+}
+.cardc h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.movien{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+}
+.moviep{
+    width: 300px;
+    padding-left: 40px;
+    padding-right: 20px;
+}
+
+.gridmo{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+@media screen and (max-width:770px) {
+   .gridmo{
+    display: grid;
+    grid-template-columns: auto auto;
+   }
+   .detail{
+    margin-left: 10%;
+   }
+ }
+
+@media screen and (max-width:425px) {
+    .cardm{
+        display: block;
+        margin-left: 25px;
+       }
+       .cardc h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .imgback{
+        width: 20px;
+    }
+    .moviep{
+        width: 280px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .imgm{
+        border-radius: 5px;
+        width: 300px;
+    }
+    .gridmo{
+        display: grid;
+        grid-template-columns: auto;
+    }
+  
+ }
+
+@media screen and (max-width:375px) {
+   .cardm{
+    display: block;
+    margin-left: 3px;
+   }
+   .cardc h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.moviep{
+    width: 280px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.imgm{
+    border-radius: 5px;
+    width: 300px;
+}
+.gridmo{
+    display: grid;
+    grid-template-columns: auto;
+}
+.imgback{
+    width: 15px;
+}
+}
+
+@media screen and (max-width:320px) {
+    .cardm{
+        display: block;
+    }
+    .moviep{
+        width: 200px;
+        padding-left: 10px;
+    }
+    .imgm{
+        border-radius: 5px;
+        width: 250px;
+    }
+    .imgback{
+        width: 20px;
+    }
+    .back{
+        margin-left: 0px;
+    }
+}

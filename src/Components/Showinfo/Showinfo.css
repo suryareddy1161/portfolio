@@ -1,0 +1,66 @@
+.showinfo{
+    position: absolute;
+    top: 100px;
+    display: flex;
+    justify-content: center;
+}
+.showinfo h1{
+    font-size: xx-large;
+}
+.cardshow{
+     position: absolute;
+    top: 150px;
+
+}
+
+@media screen and (max-width:770px) {
+    .showinfo{
+        position: absolute;
+        top: 450px;
+        display: flex;
+        justify-content: center;
+    }
+    .showinfo h1{
+        font-size: xx-large;
+    }
+    .cardshow{
+         position: absolute;
+        top: 500px;
+        margin-left: 35px;
+    }
+}
+@media screen and (max-width:425px) {
+    .showinfo{
+        position: absolute;
+        top: 900px;
+        display: flex;
+        justify-content: center;
+        margin-left: 35px;
+    }
+    .showinfo h1{
+        font-size: xx-large;
+    }
+    .cardshow{
+         position: absolute;
+        top: 950px;
+        margin-left: 35px;
+    }
+}
+
+@media screen and (max-width:325px) {
+    .showinfo{
+        position: absolute;
+        top: 930px;
+        display: flex;
+        justify-content: center;
+        margin-left: 35px;
+    }
+    .showinfo h1{
+        font-size: xx-large;
+    }
+    .cardshow{
+         position: absolute;
+        top: 990px;
+        margin-left: 35px;
+    }
+}
